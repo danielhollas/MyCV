@@ -1,11 +1,14 @@
 \documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
 \usepackage{array, xcolor, lipsum, bibentry}
 \usepackage[margin=1.5cm,total={17cm,25cm}, top=1cm, left=2.5cm, includefoot]{geometry}
+
+\usepackage{enumerate}
 
 	 
 \title{\bfseries\huge Curriculum vitae}
 \author{Daniel Hollas}
-\date{28. b\v{r}ezna 2013}
+\date{20. března 2017}
  
 \definecolor{lightgray}{gray}{0.8}
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
@@ -17,11 +20,11 @@
 \maketitle
 \thispagestyle{empty}
 %\vspace{0.5em}
-\section*{Osobn\'{i} \'{u}daje}
+\subsection*{Osobn\'{i} \'{u}daje}
 %\begin{minipage}[ht]{0.48\textwidth}
 \begin{tabular}{L!{\VRule}R}
 Jm\'{e}no %a p{r}\'{i}jmen\'{i} 
-& Bc.\,Daniel Hollas \\
+& Ing.\,Daniel Hollas \\
 Adresa&Ol\v{s}ovec 50\\
 &753 01 Hranice\\
 Datum nar. %ozen\'{i} 
@@ -34,57 +37,77 @@ E-mail & hollasd@vscht.cz \\
 \end{tabular}
 %\vspace{15pt}
 
-\section*{Vzd\v{e}l\'{a}n\'{i}}
+\subsection*{Vzdělání}
 \begin{tabular}{L!{\VRule}R}
-2011--nyn\'{i}&\textbf{magistersk\'{e} studium, obor Fyzik\'{a}ln\'{i} chemie}, \textit{Vysok\'{a} \v{s}kola chemicko-technologick\'{a} v Praze}, Praha. \\
+2013--nyn\'{i}&\textbf{doktorsk\'{e} studium, obor Fyzik\'{a}ln\'{i} chemie}, \textit{Vysok\'{a} \v{s}kola chemicko-technologick\'{a} v Praze} \\
+
+
+2011--2013&\textbf{magistersk\'{e} studium, obor Fyzik\'{a}ln\'{i} chemie}, \textit{Vysok\'{a} \v{s}kola chemicko-technologick\'{a} v Praze}, \textit{cum laude}. \\
 & Diplomov\'{a} pr\'{a}ce: Simulace kvanto\'{y}ch efekt\r{u} jader v termodynamice a spektroskopii \\
 	& \v{S}kolitel: doc.\,RNDr.\,Petr\,Slav\'{i}\v{c}ek,\,Ph.D.\vspace{5pt}\\
-2008--2011&\textbf{bakal\'{a}\v{r}sk\'{e} studium, obor Chemie}, \textit{Vysok\'{a} \v{s}kola chemicko-technologick\'{a} v Praze}, Praha, \textit{cum laude}. \\
+2008--2011&\textbf{bakal\'{a}\v{r}sk\'{e} studium, obor Chemie}, \textit{Vysok\'{a} \v{s}kola chemicko-technologick\'{a} v Praze}, \textit{cum laude}. \\
 	& Bakal\'{a}\v{r}sk\'{a} pr\'{a}ce: Fotochemie t\v{e}\v{z}k\'{y}ch analog\r{u} cyklopropenu \\
+	
 	& \v{S}kolitel: doc.\,RNDr.\,Petr\,Slav\'{i}\v{c}ek,\,Ph.D.\vspace{5pt}\\
 2000--2008&\textbf{Gymn\'{a}zium}, \textit{Gymn\'{a}zium Hranice}, Hranice, \textit{cum laude}.\\
 \end{tabular}
 
-%\section*{Summer schools and conferences}
-%\begin{tabular}{L!{\VRule}R}
-%10/2012&Winter school, \textit{GPU Computing - Methods and Applications in the Natural Sciences}, Wroclaw - Poland.\\
-%7/2012 &The 12th Sostrup Summer School, \textit{Quantum Chemistry and Molecular Properties}, Himmelbjerget - Denmark  \\
-%7/2012 &\textit{XXIV IUPAC Symposium on Photochemistry}, Coimbra-Portugal  \\
-%7/2011 & CUSO Summer School 2011, \textit{Solving the Schr\"{o}dinger Equation - From Electronic Structure to Quantum Dynamics}, Villars sur Ollon - Switzerland \\
-%9/2009 & \textit{Central European Symposium on Theoretical Chemistry}, Dobog\'{o}k\H{o} - Hungary \\
-%\end{tabular}
 
-\section*{Jazykov\'{e} dovednosti}
+\subsection*{Jazykov\'{e} dovednosti}
 \begin{tabular}{L!{\VRule}R}
 anglick\'{y}&velmi dobr\'{a} znalost (First Certificate in English, grade A)\\
 n\v{e}meck\'{y}&za\v{c}\'{a}te\v{c}n\'{i}k\\
 \end{tabular}
 
-\section*{Po\v{c}\'{i}ta\v{c}ov\'{e} dovednosti}
+\subsection*{Po\v{c}\'{i}ta\v{c}ov\'{e} dovednosti}
 \begin{tabular}{L!{\VRule}R}
 OS			&\textsc{Linux}, \textsc{Microsoft Windows}\\
 dokumenty 	&\LaTeX, \textsc{Microsoft Office}\\
-programov\'{a}n\'{i} & C++, Fortran, BASH, awk \\
-v\v{e}deck\'{e}		&kvantov\'{a} chemie (\textsc{Gaussian}, \textsc{MOLPRO})\\
+programov\'{a}n\'{i} & C++, Fortran, BASH, AWK, Python \\
+v\v{e}deck\'{e}		&kvantov\'{a} chemie (\textsc{Gaussian}, \textsc{MOLPRO}, \textsc{ORCA})\\
 			&molekul\'{a}rn\'{i} dynamika (\textsc{AMBER}, \textsc{GROMACS}) \\
 &vizualizace molekul (\textsc{VMD}, \textsc{PyMOL})\\
 &algebraick\'{e} syst\'{e}my (\textsc{Maple}, \textsc{Mathematica}) \\
+vývoj programů & \textsc{ABIN}, \textsc{TeraChem}
 \end{tabular}	 	 
+
+\subsection*{Letní školy a konference}
+\begin{tabular}{L!{\VRule}R}
+10/2012&Winter school, \textit{GPU Computing - Methods and Applications in the Natural Sciences}, Wroclaw - Poland.\\
+7/2012 &The 12th Sostrup Summer School, \textit{Quantum Chemistry and Molecular Properties}, Himmelbjerget - Denmark  \\
+7/2012 &\textit{XXIV IUPAC Symposium on Photochemistry}, Coimbra-Portugal  \\
+7/2011 & CUSO Summer School 2011, \textit{Solving the Schr\"{o}dinger Equation - From Electronic Structure to Quantum Dynamics}, Villars sur Ollon - Switzerland \\
+9/2009 & \textit{Central European Symposium on Theoretical Chemistry}, Dobog\'{o}k\H{o} - Hungary \\
+\end{tabular}
 	 
-%\section*{Publikace}
-%\begin{tabular}{L!{\VRule}R}
-%2012&Hollas D., Svoboda O., Chmela J., Slav\'{i}\v{c}ek P., 
-%FOTODYNAMIKA VODY VYVOLANÁ IONIZUJÍCÍM ZÁŘENÍM: MOLEKULÁRNÍ POHLED
-%\textit{Chem. Listy}, \textbf{2012}, \textit{106}, 936.\\ 
+\subsection*{Publikace}
 
-%2010&Ban\'{a}\v{s}, P., Hollas, D., Zgarbov\'{a}, M., Jure\v{c}ka, P., Orozco, M., Cheatham, T. E., \v{S}poner, J., Otyepka M., 
-%Performance of Molecular Mechanics Force Fields for RNA Simulations: Stability of UUCG and GNRA Hairpins
-%\textit{J.~Chem. Theory Comput.}, \textbf{2010}, \textit{6}(12), 3836–3849. \\
+\begin{enumerate}[(1)]
+\item D. Hollas, E. Muchová, P. Slavíček, Modeling Liquid Photoemission Spectra: Path-Integral Molecular Dynamics Combined with Tuned Range-Separated Hybrid Functionals \textit{J. Chem. Theory Comput.},\textbf{2016},\textit{14} 5009.
 
-%2010&Ml\'{y}nsk\'{y}, V., Ban\'{a}\v{s}, P., Hollas, D., R\'{e}blov\'{a}, K., Walter, N. G., \v{S}poner, J., Otyepka, M. 
-%Extensive molecular dynamics simulations showing that canonical G8 and protonated A38H+ forms are most consistent with crystal structures of hairpin ribozyme.
-%\textit{J.~Phys. Chem. B}, \textbf{2010}, \textit{114}(19), 6642–52\\
-%\end{tabular}
+\item D. Hollas, E. Muchová, P. Slavíček, Ve stínu elektronů: Kvantové efekty jader v chemii, \textit{Chem. Listy}, \textbf{2016}, \textit{5}, 349.
 
+\item 
+I. Unger, D. Hollas, R. Seidel, S. Thürmer, E. Aziz, P. Slavíček, B. Winter, Control of X-ray Induced Electron and Nuclear Dynamics in Ammonia and Glycine Aqueous Solution via Hydrogen Bonding. \textit{J. Phys. Chem. B}, \textbf{2015}, \textit{119}, 10750.
+
+
+\item P. Cabral do Couto, D. Hollas, P. Slavíček, On the Performance of Optimally Tuned Range-Separated Hybrid Functionals for X-ray Absorption Modeling. \textit{J. Chem. Theory Comput.}, \textbf{2015}, \textit{11}, 3234.
+
+\item Hollas, D.; Svoboda, O. a Slavíček P. Fragmentation of HCl-water clusters upon ionization: Non-adiabatic \textit{ab initio} dynamics study \textit{Chem. Phys. Lett.}, \textbf{2015}, \textit{622}, 80.
+
+\item Unger, I.; Thürmer, S.; Hollas, D.; Aziz, E. F.; Winter, B.; Slavíček, P. Ultrafast Proton and Electron Dynamics in Core-Ionized Hydrated Hydrogen Peroxide: Photoemission Measurements with Isotopically Substituted Hydrogen Peroxide \textit{J. Phys. Chem. C}, \textbf{2014}, \textit{118}, 29142.
+
+\item Poterya, V.; Kočišek, J.; Lengyel, J.; Svrčková, P.; Pysanenko, A.; Hollas, D.; Slavíček, P.; Fárník, M. Clustering and Photochemistry of Freon CF$_2$Cl$_2$ on Argon and Ice Nanoparticles. \textit{J. Phys. Chem. A}, \textbf{2014}, \textit{118}, 4740.
+
+\item Svoboda, O.; Hollas, D.; Ončák, M.; Slavíček, P. Reaction selectivity in an ionized water dimer: nonadiabatic ab initio dynamics simulations \textit{Phys. Chem. Chem. Phys.}, \textbf{2013}, \textit{15}, 11531.
+
+\item Hollas, D.; Svoboda, O.; Chmela, J.; Slavíček, P. Photodynamics of Water Elicited by Ionizing Radiation: a Molecular View \textit{Chem. Listy}, \textbf{2012}, \textit{106}, 936.
+
+\item Banáš, P.; Hollas, D.; Zgarbová, M.; Jurečka, P.; Orozco, M.; Cheatham ,T. E. III; Šponer, J.; Otyepka, M. Performance of Molecular Mechanics Force Fields for RNA Simulations: Stability of UUCG and GNRA Hairpins \textit{J. Chem. Theory Comput.}, \textbf{2010}, \textit{6}, 3836.
+
+\item Mlýnský, V.; Banáš, P.; Hollas, D.; Réblova, K.; Walter, NG.; Šponer, J.; Otyepka,M. Extensive Molecular Dynamics Simulations Showing That Canonical G8 and Protonated A38H$^{+}$ Forms Are Most Consistent with Crystal Structures of Hairpin Ribozyme \textit{J. Phys.  Chem. B}, \textbf{2010}, \textit{114}, 6642.
+
+ 
+\end{enumerate} 
  
 \end{document}
